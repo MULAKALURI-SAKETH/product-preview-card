@@ -130,3 +130,49 @@ body {
 .attribution a { 
     color: hsl(158, 38%, 30%);
 }
+
+@media (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+
+    .page {
+        min-height: 100vh;
+        height: auto;
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+
+
+    .card {
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .card-title {
+        font-size: 30px;
+    }
+
+    .card-media {
+        height: 200px;
+        width: 100%;
+
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+
+    .card-content {
+        width: 100%;
+
+            
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .attribution { 
+        font-size: 14px;
+        text-align: center;
+        position: static;
+     }
+}
